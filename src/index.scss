@@ -1,0 +1,42 @@
+@font-face {
+  font-family: LilliputSteps;
+  src: url("./assets/LilliputSteps.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  font-family: LilliputSteps;
+  color: white;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#game {
+  padding: 2px;
+
+  p {
+    line-height: 14px;
+  }
+}
+
+canvas {
+  border: 2px solid rgba(255, 255, 255, 1);
+  box-shadow: 0 0 5px 0px rgba(255, 255, 255, 1);
+}
